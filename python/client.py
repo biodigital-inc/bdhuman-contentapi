@@ -116,7 +116,7 @@ def request_access_token():
         html += '<pre>';
         html += 'token_type : ' + token_type
         html += '<pre>';
-        html += 'expires_in (sec) : ' + expires_in
+        html += 'expires_in (sec) : ' + str(expires_in)
         html += '<pre>';
         html += 'token_expiry : ' + token_expiry
         html += '<pre>';
