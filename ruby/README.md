@@ -16,8 +16,7 @@ Below are the steps for getting this example running on your local machine for d
 
 ### Prerequisites
 
-1.  An [api / developer key and secret](https://devsupport.biodigital.com/hc/en-us/articles/234672847-Why-do-I-have-to-register-an-App-) from a verified and active BioDigital Developer account.  These will be used as your ***client id*** and ***client secret*** when making requests to the BioDigital OAuth2 services.
-
+1.  The developer key and secret of a [registered BioDigital developer application](https://devsupport.biodigital.com/hc/en-us/articles/234450188-How-to-register-my-App).  These credentials will be used as your ***client id*** and ***client secret*** when making requests to the BioDigital OAuth2 services.
 
 2. [Ruby v2.3](https://www.ruby-lang.org/en/downloads/) or higher.
 
@@ -57,11 +56,16 @@ ruby client.rb --host localhost --port 5656 --sslverify=true
 
 ## Official Documentation
 
-For documentation on BioDigital Human developer APIs and services, please visit [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
+* Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
 
-For access to BioDigital Human developer FAQs and troubleshooting topics, please visit [devsupport.biodigital.com](https://devsupport.biodigital.com)
+* Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
+
 
 ## Author
 
 * **BioDigital, Inc.** - developers@biodigital.com
 
+
+## License
+
+See the [LICENSE](https://github.com/biodigital-inc/bdhuman-contentapi/blob/master/LICENSE) file for more info.
