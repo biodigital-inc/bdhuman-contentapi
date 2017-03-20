@@ -16,7 +16,7 @@ Below are the steps for getting this example running on your local machine for d
 
 ### Prerequisites
 
-1.  The developer key and secret of a [registered BioDigital developer application](https://devsupport.biodigital.com/hc/en-us/articles/234450188-How-to-register-my-App).  These credentials will be used as your ***client id*** and ***client secret*** when making requests to the BioDigital OAuth2 services.
+1.  The **developer key and secret** of a [registered BioDigital developer application](https://devsupport.biodigital.com/hc/en-us/articles/234450188-How-to-register-my-App).  These credentials will be used as your *client id* and *client secret* when making requests to the BioDigital OAuth2 services.
 
 2. This web application was created using the [Visual Studio Community (2015)](https://www.visualstudio.com/vs/community/) IDE.  Ensure the **Visual C#** Programming Language feature is selected upon installation.
  

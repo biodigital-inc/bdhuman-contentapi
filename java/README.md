@@ -16,7 +16,7 @@ Below are the steps for getting this example running on your local machine for d
 
 ### Prerequisites
 
-1.  The developer key and secret of a [registered BioDigital developer application](https://devsupport.biodigital.com/hc/en-us/articles/234450188-How-to-register-my-App).  These credentials will be used as your ***client id*** and ***client secret*** when making requests to the BioDigital OAuth2 services.
+1.  The **developer key and secret** of a [registered BioDigital developer application](https://devsupport.biodigital.com/hc/en-us/articles/234450188-How-to-register-my-App).  These credentials will be used as your *client id* and *client secret* when making requests to the BioDigital OAuth2 services.
 
 2. [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) and the following libraries (_**.jar**_ files should already be provided under the *libs/* directory):
 	*  [Common Cli 1.3.1](https://commons.apache.org/proper/commons-cli/) - https://commons.apache.org/proper/commons-cli/

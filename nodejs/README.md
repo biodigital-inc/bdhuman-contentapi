@@ -16,7 +16,7 @@ Below are the steps for getting this example running on your local machine for d
 
 ### Prerequisites
 
-1.  The developer key and secret of a [registered BioDigital developer application](https://devsupport.biodigital.com/hc/en-us/articles/234450188-How-to-register-my-App).  These credentials will be used as your ***client id*** and ***client secret*** when making requests to the BioDigital OAuth2 services.
+1.  The **developer key and secret** of a [registered BioDigital developer application](https://devsupport.biodigital.com/hc/en-us/articles/234450188-How-to-register-my-App).  These credentials will be used as your *client id* and *client secret* when making requests to the BioDigital OAuth2 services.
 
 2. [Node.js v7](https://nodejs.org/en/download/current/) or higher.
 3. [npm v3](https://nodejs.org/en/download/current/) or higher (should be included with Node.js installation), along with the below packages, which are listed in the provided **package.json** file.  Running `npm install` on the provided **package.json** file should download and install these dependencies:
