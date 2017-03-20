@@ -31,18 +31,18 @@ s.mount('https://', HTTPAdapter(max_retries=0))
 
 APP_CONFIG = {
     # BioDigital OAuth endpoint for requesting an access token
-    'OAUTH_TOKEN_URL': "https://apis-qa.biodigital.com/oauth2/v1/token/",
+    'OAUTH_TOKEN_URL': "https://apis.biodigital.com/oauth2/v1/token/",
 
     # BioDigital Content API endpoint for collection requests
-    'CONTENTAPI_COLLECTIONS_URL': "https://apis-qa.biodigital.com/services/v1/content/collections/",
+    'CONTENTAPI_COLLECTIONS_URL': "https://apis.biodigital.com/services/v1/content/collections/",
 
     # Your API / Developer key you received when you registered your
     # application at https://developer.biodigital.com
-    "CLIENT_ID": "d55cf20916f2068f874267a91b15252d58bec804",
+    "CLIENT_ID": "<DEVELOPER_KEY>",
 
     # Your API / Developer secret you received when you registered your
     # application at https://developer.biodigital.com
-    "CLIENT_SECRET": "984358f6cf63afc39ac986f25bb464c204e09a5c",
+    "CLIENT_SECRET": "<DEVELOPER_SECRET>",
 
     # The type of authorization being requested
     'GRANT_TYPE': "client_credentials",
