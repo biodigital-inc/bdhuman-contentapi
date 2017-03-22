@@ -50,7 +50,7 @@ $CLIENT_SECRET = '<DEVELOPER_SECRET>'
 ruby client.rb --host localhost --port 5656 --sslverify=true
 ```
 
-* Open a browser to the running server on http://_host_:_port_/    
+* Open a browser to the running server on http://localhost:5656/    
   
   
 

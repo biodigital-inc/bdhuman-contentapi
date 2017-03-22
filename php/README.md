@@ -50,7 +50,7 @@ define('CLIENT_SECRET', '<DEVELOPER_SECRET>');
 php -S localhost:5656 client.php
 ```
 
-* Open a browser to the running server on http://_host_:_port_/    
+* Open a browser to the running server on http://localhost:5656/    
   
   
 

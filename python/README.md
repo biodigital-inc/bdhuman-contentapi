@@ -52,7 +52,7 @@ Below are the steps for getting this example running on your local machine for d
 python34 client.py --debug --host=localhost --port=5656 --sslverify=True
 ```
 
-* Open a browser to the running server on http://_host_:_port_/    
+* Open a browser to the running server on http://localhost:5656/    
   
   
 

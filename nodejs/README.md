@@ -54,7 +54,7 @@ exports.CLIENT_SECRET = '<DEVELOPER_SECRET>';
 node client.js --host localhost --port 5656
 ```
 
-* Open a browser to the running server on http://_host_:_port_/    
+* Open a browser to the running server on http://localhost:5656/    
   
   
 
