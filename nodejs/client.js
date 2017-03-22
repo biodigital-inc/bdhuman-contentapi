@@ -5,7 +5,7 @@
  // Author: BioDigital Inc.
  // Email: developers@biodigital.com
  //
- // This example uses the Node v7.0.0, npm v3.10.9, and the minimist, utf8,
+ // This example uses the Node v4.2.2, npm v3.10.9, and the minimist, utf8,
  // request, and express libraries, 
  // and references found here:  https://nodejs.org/en/
  //                             https://www.npmjs.com
