@@ -18,6 +18,7 @@ Here you will find sample demo code in various programming languages demonstrati
 
 * Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
+* Integration trouble?  General questions?  Contact support@biodigital.com
 
 
 ## Author
