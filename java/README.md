@@ -57,16 +57,20 @@ javac -verbose -classpath "libs/*;." *.java && java -classpath "libs/*;." Client
 ## Official Documentation
 
 * Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
-
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
 
 
 ## Author
 
-* **BioDigital, Inc.** - developers@biodigital.com
+* [BioDigital, Inc.](https://www.biodigital.com/)
 
 
 ## License
 
 See the [LICENSE](https://github.com/biodigital-inc/bdhuman-contentapi/blob/master/LICENSE) file for more info.
+
+
+## Disclaimer
+
+These code examples are provided as is and are only intended to be used for illustration purposes. This code is not production-ready and is not meant to be used in a production environment. This repository is to be used as a tool to help developers learn how to integrate with [BioDigital, Inc.](https://www.biodigital.com/) API services. Any use of this repository or any of its code in a production environment is highly discouraged.
 
