@@ -5,7 +5,7 @@ The BioDigital Content API is a RESTful server-side service that provides access
 
 The Content API allows you to:
 
-* Return a list of 3D models found in your personal [My Human](https://support.biodigital.com/hc/en-us/articles/115004174407-What-is-My-Human-) and [Group](https://support.biodigital.com/hc/en-us/articles/115011666447-Where-can-I-find-my-group-content-) libraries.
+* Return a list of 3D models found in your personal or group [Dashboard](https://support.biodigital.com/hc/en-us/articles/115004174407-What-is-My-Human-).
 * Retrieve metadata on your 3D models that include title, description, URL, and ID.
 
 The Content API identifies BioDigital developer applications and users using authorized credentials obtained via our OAuth2 services, and returns responses in JSON format. 
