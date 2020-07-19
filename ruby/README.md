@@ -58,7 +58,7 @@ ruby client.rb --host localhost --port 5656 --sslverify=true
 
 * Developer APIs and services:   [developer.biodigital.com](https://developer.biodigital.com)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
-* Integration trouble?  General questions?  Contact support@biodigital.com
+* Integration trouble?  General questions?  Contact developers@biodigital.com
 
 
 ## Author

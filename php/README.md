@@ -61,7 +61,7 @@ php -S localhost:5656 client.php
 
 * Developer APIs and services:   [developer.biodigital.com](https://developer.biodigital.com)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
-* Integration trouble?  General questions?  Contact support@biodigital.com
+* Integration trouble?  General questions?  Contact developers@biodigital.com
 
 
 ## Author
