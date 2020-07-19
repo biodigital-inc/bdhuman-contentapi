@@ -3,11 +3,10 @@
 
 
 
-Sample code using [PHP](https://secure.php.net/) to demonstrate making requests to the BioDigital Human Content API service.  This example provides a basic approach to:
+Code samples using [PHP](https://secure.php.net/) to demonstrate making requests to the BioDigital Human Content API.  These examples provide basic approaches to:
 
 * Requesting an access token from the BioDigital OAuth2 services
-* Using an access token to make authorized requests to a Content API endpoint
-
+* Using an access token to make authorized requests to various Content API endpoints
 
 
 ## Getting Started
@@ -23,7 +22,11 @@ Below are the steps for getting this example running on your local machine for d
 
 ### Running on local machine
 
-* Install any library prerequisites or dependencies on your local machine.
+* Install any library prerequisites or dependencies on your local machine.  Ensure the below extenstions are enabled in your php configuration file (php.ini):
+
+	*  [mbstring](https://www.knowledgebase-script.com/kb/article/how-to-enable-mbstring-in-php-46.html)
+	*  [curl](https://www.geeksforgeeks.org/how-to-enable-curl-in-php/)
+
 
 *  Download the code files to a directory.  Edit the **client.php** script file by:
 
@@ -56,7 +59,7 @@ php -S localhost:5656 client.php
 
 ## Official Documentation
 
-* Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
+* Developer APIs and services:   [developer.biodigital.com](https://developer.biodigital.com)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
 * Integration trouble?  General questions?  Contact support@biodigital.com
 

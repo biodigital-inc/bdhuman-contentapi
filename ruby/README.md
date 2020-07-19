@@ -3,16 +3,16 @@
 
 
 
-Sample code using [Ruby](https://www.ruby-lang.org) to demonstrate making requests to the BioDigital Human Content API service.  This example provides a basic approach to:
+Code samples using [Ruby](https://www.ruby-lang.org) to demonstrate making requests to the BioDigital Human Content API.  These examples provide basic approaches to:
 
 * Requesting an access token from the BioDigital OAuth2 services
-* Using an access token to make authorized requests to a Content API endpoint
-
+* Using an access token to make authorized requests to various Content API endpoints
 
 
 ## Getting Started
 
 Below are the steps for getting this example running on your local machine for development and testing purposes.
+
 
 ### Prerequisites
 
@@ -56,7 +56,7 @@ ruby client.rb --host localhost --port 5656 --sslverify=true
 
 ## Official Documentation
 
-* Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
+* Developer APIs and services:   [developer.biodigital.com](https://developer.biodigital.com)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
 * Integration trouble?  General questions?  Contact support@biodigital.com
 

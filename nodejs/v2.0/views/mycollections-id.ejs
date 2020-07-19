@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content API /mycollections/{id} Example</title>
+
+    <style>
+        .prettyprint {
+            outline: 1px solid #ccc;
+            padding: 5px;
+            margin: 20px;
+            max-height: 200px;
+            line-height: 1.2;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p><a href="/">Start Over</a></p>
+    <p>Successful!</p>
+    <p>Your <b><%= endpoint_path %></b> endpoint response:</p>
+    <pre id="output" class="prettyprint"><%= mycollections_id_results %></pre>
+
+
+    <p>Additional team collection endpoints:</p>
+    <%  mycollections_id_results_obj['mycollections'].forEach(function(collection) { %>
+    <div>
+        <ul style="list-style: none;">
+            <li>Return a list of all my team collections:  <a href="/query-collection-mycollections?access_token=<%= access_token %>">/mycollections</a></li>
+            <li>Return a list of all content for this team collection:  <a href="/query-collection-mycollections-id-contentlist?collection_id=<%=collection.collection_id%>&access_token=<%= access_token %>">/mycollections/<%=collection.collection_id%>/content_list</a></li>
+        </ul>
+    </div>
+    <% }); %>
+
+    <p>Other endpoints:</p>
+    <div>
+        <ul style="list-style: none;">
+            <li>Return a list of all my dashboard content:  <a href="/query-collection-myhuman?access_token=<%= access_token %>">/myhuman</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

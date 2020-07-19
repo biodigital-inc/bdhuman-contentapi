@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Content API /token Example</title>
+	</head>
+    <body>
+        <h3>Successfully retrieved access token!</h3>
+		<pre>access_token : <?=$this->access_token?></pre>
+		<pre>token_type : <?=$this->token_type?></pre>
+		<pre>expires_in : <?=$this->expires_in?></pre>
+		<pre>token_expiry : <?=$this->token_expiry?></pre>
+		<pre>timestamp : <?=$this->timestamp?></pre>
+
+		<p>
+			<a href="?action=query_collection_myhuman&access_token=<?=$this->access_token?>">Query Content API /myhuman endpoint with Access Token</a>
+		</p>
+		<p>
+			<a href="?action=query_collection_mycollections&access_token=<?=$this->access_token?>">Query Content API /mycollections endpoint with Access Token</a>
+		</p>
+
+    </body>
+</html>

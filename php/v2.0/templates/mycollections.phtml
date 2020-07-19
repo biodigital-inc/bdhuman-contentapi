@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Content API /mycollections Example</title>
+
+		<style>
+			.prettyprint {
+				outline: 1px solid #ccc;
+				padding: 5px;
+				margin: 20px;
+				max-height: 200px;
+				line-height: 1.2;
+				overflow-y: auto;
+				overflow-x: auto;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<p><a href="/">Start Over</a></p>
+		<p>Your <b><?=$this->endpoint_path?></b> endpoint response:</p>
+		<pre id="output" class="prettyprint"><?=$this->mycollections_results?></pre>
+
+		<p>Additional team collection endpoints:</p>
+		<?php foreach ($this->mycollections_results_obj->mycollections as $collection): ?>
+		<div>
+			<ul style="list-style: none;">
+				<li>Team Collection:  <b><?=$collection->collection_name?></b> [id: <?=$collection->collection_id?>]</li>
+				<li>Return details for this team collection only:  <a href="?action=query_collection_mycollections_id&collection_id=<?=$collection->collection_id?>&access_token=<?=$this->access_token?>">/mycollections/<?=$collection->collection_id?></a></li>
+				<li>Return a list of all content for this team collection:  <a href="?action=query_collection_mycollections_id_content_list&collection_id=<?=$collection->collection_id?>&access_token=<?=$this->access_token?>">/mycollections/<?=$collection->collection_id?>/content_list</a></li>
+			</ul>
+		</div>
+		<?php endforeach; ?>
+
+		<p>Other endpoints:</p>
+		<div>
+			<ul style="list-style: none;">
+				<li>Return a list of all my dashboard content:  <a href="?action=query_collection_myhuman&access_token=<?=$this->access_token?>">/myhuman</a></li>
+			</ul>
+		</div>
+
+	</body>
+
+</html>
