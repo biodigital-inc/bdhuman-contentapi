@@ -11,7 +11,15 @@ The Content API allows you to:
 
 The Content API identifies BioDigital developer applications and users using authorized credentials obtained via our OAuth2 services, and returns responses in JSON format. 
 
-Here you will find sample demo code in various programming languages demonstrating the basic steps for making requests to the API service.
+Here you will find sample demo code in various programming languages demonstrating the basic steps for making requests to various versions of Content API endpoints.  You can download the source code and run these demos on your local machine.  The demo applications are currently available in the following programming languages:
+
+* [.NET C#](https://github.com/biodigital-inc/bdhuman-contentapi/tree/master/.net-csharp)
+* [Java](https://github.com/biodigital-inc/bdhuman-contentapi/tree/master/java)
+* [Node.js](https://github.com/biodigital-inc/bdhuman-contentapi/tree/master/nodejs)
+* [PHP](https://github.com/biodigital-inc/bdhuman-contentapi/tree/master/php)
+* [Python](https://github.com/biodigital-inc/bdhuman-contentapi/tree/master/python)
+* [Ruby](https://github.com/biodigital-inc/bdhuman-contentapi/tree/master/ruby)
+
 
 
 
