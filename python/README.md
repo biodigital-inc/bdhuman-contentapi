@@ -49,7 +49,7 @@ Below are the steps for getting these example running on your local machine for 
 
 
 ```
-python34 client.py --debug --host=localhost --port=5656 --sslverify=True
+python client.py --debug --host=localhost --port=5656 --sslverify=True
 ```
 
 * Open a browser to the running server on http://localhost:5656/    
