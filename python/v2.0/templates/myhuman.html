@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content API /myhuman Example</title>
+
+    <style>
+        .prettyprint {
+            outline: 1px solid #ccc;
+            padding: 5px;
+            margin: 20px;
+            max-height: 200px;
+            line-height: 1.2;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p><a href="/">Start Over</a></p>
+    <p>Successful!</p>
+    <p>Your <b>{{endpoint_path}}</b> endpoint response:</p>
+    <pre id="output" class="prettyprint">{{myhuman_results}}</pre>
+
+    <p>Other endpoints:</p>
+    <div>
+        <ul style="list-style: none;">
+            <li>Return a list of all my team collections:  <a href="/query-collection-mycollections?access_token={{access_token}}">/mycollections</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

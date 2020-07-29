@@ -111,7 +111,7 @@ class MyOAuthHandler
 		req.body  = post_body
 
 		sock = Net::HTTP.new(url.host, url.port)
-		if $options[:sslverify] == true or $options[:sslverify] = "true"
+		if $options[:sslverify] == true or $options[:sslverify] == "true"
 			sock.use_ssl = true  
 		else 
 			sock.use_ssl = false  		
@@ -194,7 +194,7 @@ class MyOAuthHandler
 		req['Accept'] = "application/json"
 
 		sock = Net::HTTP.new(uri.host, uri.port)
-		if $options[:sslverify] == true or $options[:sslverify] = "true"
+		if $options[:sslverify] == true or $options[:sslverify] == "true"
 			sock.use_ssl = true  
 		else 
 			sock.use_ssl = false  		

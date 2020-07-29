@@ -3,10 +3,10 @@
 
 
 
-Sample code using [Node.js](https://nodejs.org) to demonstrate making requests to the BioDigital Human Content API service.  This example provides a basic approach to:
+Code samples using [Node.js](https://nodejs.org) to demonstrate making requests to the BioDigital Human Content API.  These examples provide basic approaches to:
 
 * Requesting an access token from the BioDigital OAuth2 services
-* Using an access token to make authorized requests to a Content API endpoint
+* Using an access token to make authorized requests to various Content API endpoints
 
 
 
@@ -60,9 +60,9 @@ node client.js --host localhost --port 5656
 
 ## Official Documentation
 
-* Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
+* Developer APIs and services:   [developer.biodigital.com](https://developer.biodigital.com)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
-* Integration trouble?  General questions?  Contact support@biodigital.com
+* Integration trouble?  General questions?  Contact developers@biodigital.com
 
 
 ## Author

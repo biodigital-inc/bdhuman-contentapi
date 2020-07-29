@@ -3,10 +3,10 @@
 
 
 
-Sample code using [Java Platform Standard Edition (Java SE) 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) to demonstrate making requests to the BioDigital Human Content API service.  This example provides a basic approach to:
+Code samples using [Java Platform Standard Edition (Java SE) 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) to demonstrate making requests to the BioDigital Human Content API.  These examples provide basic approaches to:
 
 * Requesting an access token from the BioDigital OAuth2 services
-* Using an access token to make authorized requests to a Content API endpoint
+* Using an access token to make authorized requests to various Content API endpoints
 
 
 
@@ -47,7 +47,8 @@ Below are the steps for getting this example running on your local machine for d
 *  Open a command terminal and switch to the root directory of the code files.  Run the java program by executing the Java compiler and interpreter on the **Client.java** file using the following command line parameters (see [Java Tutorials](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html) for more detail):
  
 ```
-javac -verbose -classpath "libs/*;." *.java && java -classpath "libs/*;." Client
+> javac -verbose -classpath "libs/*;." *.java
+> java -classpath "libs/*;." Client
 ```
 
 * Step through the command prompt instructions.    
@@ -56,9 +57,9 @@ javac -verbose -classpath "libs/*;." *.java && java -classpath "libs/*;." Client
 
 ## Official Documentation
 
-* Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
+* Developer APIs and services:   [developer.biodigital.com](https://developer.biodigital.com)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
-* Integration trouble?  General questions?  Contact support@biodigital.com
+* Integration trouble?  General questions?  Contact developers@biodigital.com
 
 
 ## Author

@@ -3,11 +3,10 @@
 
 
 
-Sample code using a [.NET 4.5 Visual Studio 2015 C# Web Application](https://msdn.microsoft.com/en-us/library/kx37x362.aspx) to demonstrate making requests to the BioDigital Human Content API service.  This example provides a basic approach to:
+Code samples using a [.NET 4.5 Visual Studio 2015 C# Web Application](https://msdn.microsoft.com/en-us/library/kx37x362.aspx) to demonstrate making requests to the BioDigital Human Content API.  These examples provide basic approaches to:
 
 * Requesting an access token from the BioDigital OAuth2 services
-* Using an access token to make authorized requests to a Content API endpoint
-
+* Using an access token to make authorized requests to various Content API endpoints
 
 
 ## Getting Started
@@ -22,6 +21,8 @@ Below are the steps for getting this example running on your local machine for d
  
 3. This web application uses the following [NuGet packages](https://www.nuget.org/), in addition to the standard toolkit.  These packages should be listed within the provided **package.config** file and can be mangaged via the [NuGet Package Manager UI in Visual Studio](https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui):
 	*  [Newtonsoft.Json](http://www.newtonsoft.com/json) - http://www.newtonsoft.com/json
+    *  [Microsoft.CodeDom.Providers.DotNetCompilerPlatform](https://www.nuget.org/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform/) - https://www.nuget.org/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform/
+    *  [Microsoft.Net.Compilers](https://www.nuget.org/packages/Microsoft.Net.Compilers) - https://www.nuget.org/packages/Microsoft.Net.Compilers
 
 
 ### Running on local machine
@@ -49,16 +50,16 @@ Below are the steps for getting this example running on your local machine for d
 
 *  Start Visual Studio and open the project via the **WebApp.sln** solution file.  
 
-*  Run the [**Build** and **View in Browswer**](https://msdn.microsoft.com/en-us/library/df5x06h3(v=vs.110).aspx) options to test the application via a browser.  
+*  Run the [**Build** and **View in Browser**](https://msdn.microsoft.com/en-us/library/df5x06h3(v=vs.110).aspx) options to test the application via a browser.  
 
   
   
 
 ## Official Documentation
 
-* Developer APIs and services:   [developer.biodigital.com/documentation](https://developer.biodigital.com/documentation)
+* Developer APIs and services:   [developer.biodigital.com](https://developer.biodigital.com)
 * Developer FAQs and troubleshooting topics:  [devsupport.biodigital.com](https://devsupport.biodigital.com)
-* Integration trouble?  General questions?  Contact support@biodigital.com
+* Integration trouble?  General questions?  Contact developers@biodigital.com
 
 
 ## Author
