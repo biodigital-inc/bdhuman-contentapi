@@ -47,7 +47,7 @@ define('CLIENT_ID', '<DEVELOPER_KEY>');
 define('CLIENT_SECRET', '<DEVELOPER_SECRET>');
 ```
 
-*  Open a command terminal and switch to the root directory of the code files.  Run the **client.php** script via the PHP built in server by specfying a host and port:  
+*  Open a command terminal and switch to the root version directory (e.g. v2.0/) of the relevant code files.  Run the **client.php** script via the PHP built in server by specfying a host and port:  
 
 ```
 php -S localhost:5656 client.php

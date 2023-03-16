@@ -27,14 +27,18 @@
     <pre id="output" class="prettyprint"><%=results%></pre>
 
     <p>Additional collection endpoints:</p>
-    <% results_obj["content_list"].each do |content| %>
+
     <div>
         <ul style="list-style: none;">
             <li>Return a list of all my team collections:  <a href="/query-collection-mycollections?access_token=<%=access_token%>">/mycollections</a></li>
+            <% results_obj["content_list"].each do |content| %>          
             <li>Return details for this team collection only:  <a href="/query-collection-mycollections-id?access_token=<%=access_token%>&collection_id=<%=content["collection_id"]%>">/mycollections/<%=content["collection_id"]%></a></li>
+            <% break end %>
+            <% if results_obj["content_list"].size == 0 %>  
+            <li>No content assoicated with collection</li>
+            <% end%>
         </ul>
-    </div>
-    <% break end %>
+    </div>    
 
     <p>Other endpoints:</p>
     <div>
