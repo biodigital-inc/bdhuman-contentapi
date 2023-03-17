@@ -44,7 +44,7 @@ Below are the steps for getting this example running on your local machine for d
 
 ```
 
-*  Open a command terminal and switch to the root directory of the code files.  Run the java program by executing the Java compiler and interpreter on the **Client.java** file using the following command line parameters (see [Java Tutorials](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html) for more detail):
+*  Open a command terminal and switch to the root version directory (e.g. v2.0/) of the relevant code files.  Run the java program by executing the Java compiler and interpreter on the **Client.java** file using the following command line parameters (see [Java Tutorials](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html) for more detail):
  
 ```
 > javac -verbose -classpath "libs/*;." *.java

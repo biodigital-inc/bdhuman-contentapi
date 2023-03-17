@@ -26,14 +26,18 @@
 		<pre id="output" class="prettyprint"><?=$this->mycollections_id_contentlist_results?></pre>
 
 		<p>Additional team collection endpoints:</p>
-		<?php foreach ($this->mycollections_id_contentlist_results_obj->content_list as $content): ?>
 		<div>
 			<ul style="list-style: none;">
-				<li>Return a list of all my team collections:  <a href="?action=query_collection_mycollections&collection_id=<?=$content->collection_id?>&access_token=<?=$this->access_token?>">/mycollections</a></li>
+				<li>Return a list of all my team collections:  <a href="?action=query_collection_mycollections&access_token=<?=$this->access_token?>">/mycollections</a></li>
+				<?php foreach ($this->mycollections_id_contentlist_results_obj->content_list as $content): ?>
 				<li>Return details for this team collection only:  <a href="?action=query_collection_mycollections_id&collection_id=<?=$content->collection_id?>&access_token=<?=$this->access_token?>">/mycollections/<?=$content->collection_id?></a></li>
+				<?php break; endforeach; ?>
+				<?php if( count($this->mycollections_id_contentlist_results_obj->content_list) == 0): ?>
+					<li>No content assoicated with collection</li>
+				<?php endif; ?>
 			</ul>
 		</div>
-		<?php break; endforeach; ?>
+
 
 		<p>Other endpoints:</p>
 		<div>

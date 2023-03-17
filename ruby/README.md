@@ -40,7 +40,7 @@ $CLIENT_SECRET = '<DEVELOPER_SECRET>'
 
 ```
 
-*  Open a command terminal and switch to the root directory of the code files.  Run the **client.rb** script with the following command line parameters (unspecified optional parameters will use default values):
+*  Open a command terminal and switch to the root version directory (e.g. v2.0/) of the relevant code files.  Run the **client.rb** script with the following command line parameters (unspecified optional parameters will use default values):
  
  	* **_--host=[VALUE]_**  (Optional):  server host value.  Default is 127.0.0.1.
  	* **_--port=[VALUE]_**   (Optional):  server port value.  Default is 5000.

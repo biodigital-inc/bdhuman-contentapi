@@ -539,6 +539,25 @@ namespace WebApplication1
 
         }
 
+        protected void api_mycollections_id_contentlist_rptr_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            Repeater rptr = sender as Repeater; // Get the Repeater control object.
+
+            // If the Repeater contains no data.
+            if (rptr != null && rptr.Items.Count < 1)
+            {
+                if (e.Item.ItemType == ListItemType.Footer)
+                {
+                    // Show the Error Label (if no data is present).
+                    Literal ltlIsEmpty = e.Item.FindControl("api_mycollections_id_contentlist_empty_ltl") as Literal;
+                    if (ltlIsEmpty != null)
+                    {
+                        ltlIsEmpty.Visible = true;
+                    }
+                }
+            }
+        }
+        
         protected void start_over_Click(object sender, EventArgs e)
         {
             initialize();

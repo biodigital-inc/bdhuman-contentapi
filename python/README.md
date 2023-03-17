@@ -40,7 +40,7 @@ Below are the steps for getting these example running on your local machine for 
 "CLIENT_SECRET": "<DEVELOPER_SECRET>"
 ```
 
-*  Open a command terminal and switch to the root directory of the code files.  Run the **client.py** python script with the following command line parameters (unspecified optional parameters will use default values):
+*  Open a command terminal and switch to the root version directory (e.g. v2.0/) of the relevant code files.  Run the **client.py** python script with the following command line parameters (unspecified optional parameters will use default values):
 
  *  **_--debug_**  (Optional):  turns on [Werkzeug](http://werkzeug.pocoo.org/docs/0.11/debug/) debugging tracebacks. 
  *  **_--host=[VALUE]_**  (Optional):  flask server host value.  Default is 127.0.0.1.

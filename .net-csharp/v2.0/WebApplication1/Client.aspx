@@ -139,18 +139,20 @@
                  <pre class="prettyprint"><asp:Literal ID="api_mycollections_id_contentlist_success_results_ltl" runat="server"></asp:Literal></pre>
 
                 <p>Additional team collection endpoints:</p>
-                <asp:Repeater ID="api_mycollections_id_contentlist_rptr" runat="server">
+                <asp:Repeater ID="api_mycollections_id_contentlist_rptr" runat="server" OnItemDataBound="api_mycollections_id_contentlist_rptr_ItemDataBound">
                     <HeaderTemplate>
-                    </HeaderTemplate>
-                    <ItemTemplate>
                         <div>
                             <ul style="list-style: none;">
                                 <li>Return a list of all my team collections:  <asp:LinkButton ID="api_mycollections_id_collection_mycollections_lb" runat="server" OnClick="query_collection_mycollections_Click">/mycollections</asp:LinkButton></li>
+                    </HeaderTemplate>
+                    <ItemTemplate>
                                 <li>Return details for this team collection only:  <asp:LinkButton ID="api_mycollections_id_collection_mycollections_id_lb" runat="server" CommandName="mycollections_id" CommandArgument='<%# Eval("collection_id") %>' OnCommand="query_collection_mycollections_id_Click">/mycollections/<%# Eval("collection_id") %></asp:LinkButton></li>
-                            </ul>
-                        </div>
+
                     </ItemTemplate>
                     <FooterTemplate>
+                                <li><asp:Literal ID="api_mycollections_id_contentlist_empty_ltl" Text="No content assoicated with collection" runat="server" Visible="false"></asp:Literal></li>
+                            </ul>
+                        </div>
                     </FooterTemplate>
                 </asp:Repeater>
                 

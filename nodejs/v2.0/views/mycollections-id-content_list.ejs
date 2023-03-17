@@ -28,14 +28,17 @@
 
 
     <p>Additional team collection endpoints:</p>
-    <%  if (mycollections_id_contentlist_results_obj['content_list'].length > 0) {  %>
     <div>
         <ul style="list-style: none;">
             <li>Return a list of all my team collections:  <a href="/query-collection-mycollections?access_token=<%= access_token %>">/mycollections</a></li>
-            <li>Return details for this team collection only:  <a href="/query-collection-mycollections-id?collection_id=<%=mycollections_id_contentlist_results_obj['content_list'][0].collection_id%>&access_token=<%= access_token %>">/mycollections/<%=mycollections_id_contentlist_results_obj['content_list'][0].collection_id%></a></li>
+            <%  if (mycollections_id_contentlist_results_obj['content_list'].length > 0) {  %>
+                <li>Return details for this team collection only:  <a href="/query-collection-mycollections-id?collection_id=<%=mycollections_id_contentlist_results_obj['content_list'][0].collection_id%>&access_token=<%= access_token %>">/mycollections/<%=mycollections_id_contentlist_results_obj['content_list'][0].collection_id%></a></li>
+            <% } else{ %>  
+                <li>No content assoicated with collection</li>
+            <% } %>
         </ul>
     </div>
-    <% } %>
+
 
     <p>Other endpoints:</p>
     <div>
